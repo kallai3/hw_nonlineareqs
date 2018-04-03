@@ -1,0 +1,8 @@
+x = input('Initial guess:')
+dx = 1
+while (abs(dx) > (.001))
+    f = cos(2*x)- (x/2)
+    fp = -2*sin(2*x) - (1/2)
+    dx=(f)/(fp)
+    x= x-dx
+end
